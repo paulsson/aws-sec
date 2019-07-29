@@ -4,7 +4,7 @@
 This script audits all API Gateways in the given AWS region.
 It reports how each gateway resource and http verb/method is secured.
 The output can be formatted as either json or csv. CSV format is handy if you need to
-share the audit reports with a point hair manager so they can open in a spreadsheet.
+share the audit reports with a pointy hair manager so they can open in a spreadsheet.
 This script can be setup to be run on AWS lambda on a schedule if desired and then
 deliver the reports to some location or send out an alert if an endpoint is not secured
 properly.
